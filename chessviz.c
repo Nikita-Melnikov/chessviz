@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void Init(char deck[8][8]) {
+void InitDeck(char deck[8][8]) {
 	char letters[]={'r','n','b','q','k','b','n','r'};
 	for (int letter=0; letter<8; ++letter) {
 		deck[0][letter]=letters[letter];
@@ -13,7 +13,7 @@ void Init(char deck[8][8]) {
 	}
 }
 
-void Print(char deck[8][8]) {
+void PrintDeck(char deck[8][8]) {
 	for (int number=0; number<8; ++number) {
 		for (int letter=0; letter<8; ++letter) {
 			printf("%c ",deck[number][letter]);
