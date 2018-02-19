@@ -24,8 +24,8 @@ void PrintDeck(char deck[8][8]) {
 
 int main() {
 	char deck[8][8];
-	Init(deck);
-	Print(deck);
+	InitDeck(deck);
+	PrintDeck(deck);
 	getchar();
 	return 0;
 }	
