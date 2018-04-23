@@ -1,6 +1,6 @@
--*.exe
-+bin/*
-+!bin/.gitkeep
-+build/*
-+!build/.gitkeep
+
+bin/*
+!bin/.gitkeep
+build/*
+!build/.gitkeep
 .gitignore.swp
