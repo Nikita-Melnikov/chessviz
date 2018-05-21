@@ -1,6 +1,5 @@
 
-bin/*
-!bin/.gitkeep
-build/*
-!build/.gitkeep
-.gitignore.swp
+*[ao]
+*~
+all
+
