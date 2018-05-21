@@ -1,3 +1,5 @@
-chessviz
-.gitignore.swp
+
+*[ao]
+*~
+all
 
